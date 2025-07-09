@@ -288,7 +288,7 @@ func (m *GasPriceResponse) GetPrice() types.DecCoin {
 	return types.DecCoin{}
 }
 
-// GasPriceRequest is the request type for the Query/GasPrices RPC method.
+// GasPricesRequest is the request type for the Query/GasPrices RPC method.
 type GasPricesRequest struct {
 }
 

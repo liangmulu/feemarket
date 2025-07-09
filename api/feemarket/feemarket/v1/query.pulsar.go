@@ -3516,7 +3516,7 @@ func (x *GasPriceResponse) GetPrice() *v1beta1.DecCoin {
 	return nil
 }
 
-// GasPriceRequest is the request type for the Query/GasPrices RPC method.
+// GasPricesRequest is the request type for the Query/GasPrices RPC method.
 type GasPricesRequest struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache

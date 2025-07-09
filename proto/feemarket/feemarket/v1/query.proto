@@ -68,7 +68,7 @@ message GasPriceResponse {
       [ (gogoproto.nullable) = false, (amino.dont_omitempty) = true ];
 }
 
-// GasPriceRequest is the request type for the Query/GasPrices RPC method.
+// GasPricesRequest is the request type for the Query/GasPrices RPC method.
 message GasPricesRequest {}
 
 // GasPricesResponse is the response type for the Query/GasPrices RPC method.
